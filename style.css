@@ -1,0 +1,40 @@
+:root {
+  --green-600: #48453c;
+  --green-700: #36453b;
+  --gray-100: #626061;
+  --white-100: #f7f7f7;
+  --black-100: #343233;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.photo-profile {
+  width: 6em;
+  height: 6em;
+}
+textarea {
+  width: 100%;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+.title-702 {
+  cursor: pointer;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.s-icons {
+  font-size: 3em;
+}
+
+.title1 {
+  font-family: "Raleway", sans-serif;
+  color: var(--green-700);
+}
+.name {
+  font-family: "Raleway", sans-serif;
+}
